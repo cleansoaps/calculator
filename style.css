@@ -1,0 +1,162 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0px;
+  box-sizing: border-box;
+  font-family: "Righteous", cursive;
+  color: #000;
+}
+
+body {
+  ;
+}
+
+
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator {
+  background-color: #4000c7;
+  width: 335px;
+  height: 350px;
+  border-radius: 10px;
+  overflow: visible;
+}
+
+.calculator__display--bare {
+  /* display: none; */
+  background-color: #433737;
+  text-align: center;
+  vertical-align: middle;
+  height: 100px;
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  font-size: 20px;
+  padding: 25px 20px;
+  overflow: hidden;
+  overflow-wrap: break-word;
+  border-bottom-color: #000;
+  border-bottom-style: dashed;
+  margin: 0px;
+}
+
+.calculator__display--bare > span {
+  display: inline-block;
+  text-align: center;
+  background-color: #433737;
+  margin: 5px;
+  width: 45px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 30px;
+  color: #ffffff;
+  padding: 10px 5px;
+  
+
+}
+
+.calculator__display--for-advanced {
+  display: none;
+  background-color: #ffffff;
+  height: 150px;
+  width: 100%;
+  border-radius: 10px;
+  font-size: 20px;
+  text-align: center;
+  vertical-align: middle;
+  padding: 25px 15px;
+  overflow: hidden;
+  overflow-wrap: break-word;
+  margin: 0px;
+  border: 1px solid black;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.calculator__buttons {
+  
+  background-color: #938585;
+  width: 100%;
+  height: 250px;
+  line-height: 0;
+  border: 0.5px solid black;
+  
+ 
+}
+
+.clear__and__enter {
+  height: 50px;
+  margin: 0px;
+  padding: 0;
+  background-color: 38585;
+}
+
+.clear__and__enter > button {
+  
+  width: 80px;
+  height: 50px;
+  margin: 0;
+  padding: 0;
+  background-color: #938585;
+  cursor: pointer;
+  outline: none;
+  border: 0.5px solid black;
+  line-height: 0;
+}
+
+.button__row {
+  height: 50px;
+  margin: 0;
+  padding: 0;
+  background-color: #938585;
+  overflow: visible;
+}
+
+.button__row > button {
+  width: 80px;
+  height: 50px;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  outline: none;
+  background-color: #938585;
+  overflow: visible;
+  line-height: 0;
+  border: 0.5px solid black;
+ 
+}
+.number {
+  margin: 0;
+}
+.button__row > .operator {
+  color: #ffffff;
+  background-color: #ffa000;
+  overflow: visible;
+}
+
+.button__row > .double {
+  width: 164.5px;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+}
+
+
+
+
+
+.down {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.divibe {
+  background-color: #ffa000;
+}
